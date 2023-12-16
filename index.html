@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- HEAD -->
+  <head>
+    <!-- GOOGLE TAG MANAGER -->
+    <script>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-MS7GJP5W");
+    </script>
+    <!-- HEAD: GOOGLE TAG (GTAG.JS) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-SNVL9FKFBB"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "G-SNVL9FKFBB");
+    </script>
+    <!-- HEAD: META -->
+    <meta charset="UTF-8" />
+    <meta name="description" content="Barrabase, Festival de Artes Verbales Urbanas, Liga de Batallas Escritas" />
+    <meta name="keywords" content="Barrabase, Festival de Artes Verbales Urbanas, Liga de Batallas Escritas" />
+    <meta name="author" content="José Simón Ovando Arriagada" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- HEAD: TITLE -->
+    <title>Barrabase | Festival de Artes Verbales</title>
+    <link rel="stylesheet" href="./assets/css/main.css" />
+    <!-- HEAD: GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- HEAD: MATERIAL SYMBOLS -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <!-- HEAD: STYLES -->
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎤</text></svg>"
+    />
+  </head>
+  <!-- BODY -->
+  <body>
+    <!-- GOOGLE TAG MANAGER (NOSCRIPT) -->
+    <noscript
+      ><iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-MS7GJP5W"
+        height="0"
+        width="0"
+        style="display: none; visibility: hidden"
+      ></iframe
+    ></noscript>
+    <!-- LAYOUT -->
+    <div class="layout">
+      <!-- HEADER -->
+      <header class="header">
+        <!-- HEADER: CONTENT -->
+        <div class="header__content">
+          <!-- HEADER: LOGO -->
+          <img class="header__logo" src="./assets/img/logo.webp" alt="Barrabase" onclick="scrollToTop()" />
+          <!-- NAV -->
+          <nav class="nav">
+            <!-- NAV: DESKTOP -->
+            <div class="nav__desktop">
+              <!-- NAV: UNORDERED LIST -->
+              <ul class="nav__ul">
+                <li><a class="nav__a" href="#about">¿Qué es Barrabase?</a></li>
+                <li><a class="nav__a" href="#faqs">Preguntas Frecuentes</a></li>
+              </ul>
+              <!-- NAV: CALL TO ACTION -->
+              <a class="nav__cta" href="https://ticketplus.cl/events/barrabase" target="_blank">Comprar Entrada</a>
+            </div>
+            <!-- NAV: MOBILE -->
+            <div class="nav__mobile">
+              <!-- BURGER -->
+              <button class="burger" onclick="toggleMobileMenu()">
+                <div class="burger__bar"></div>
+                <div class="burger__bar"></div>
+                <div class="burger__bar"></div>
+              </button>
+              <!-- NAV: UNORDERED LIST -->
+              <ul class="nav__ul nav__ul--mobile">
+                <li><a class="nav__a" href="#about" onclick="toggleMobileMenu()">¿Qué es Barrabase?</a></li>
+                <li><a class="nav__a" href="#faqs" onclick="toggleMobileMenu()">Preguntas Frecuentes</a></li>
+                <li>
+                  <a
+                    class="nav__cta"
+                    href="https://ticketplus.cl/events/barrabase"
+                    target="_blank"
+                    onclick="toggleMobileMenu()"
+                    >Comprar Entrada</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <!-- NAV: OVERLAY -->
+            <div class="nav__overlay"></div>
+          </nav>
+        </div>
+      </header>
+      <!-- HERO -->
+      <section class="hero">
+        <!-- HERO: CONTENT -->
+        <div class="hero__content">
+          <!-- HERO: HEADINGS -->
+          <div class="headings">
+            <h3 class="headings--pretitle">El 21 de Enero el Battle Rap llega a Chile</h3>
+            <h1 class="headings--title">Descubre Barrabase</h1>
+            <h4 class="headings--subtitle">
+              El nuevo certamen que cambiará la<span>historia de las batallas de rap del país</span>
+            </h4>
+          </div>
+          <!-- HERO: CTA -->
+          <a class="cta" href="https://ticketplus.cl/events/barrabase" target="_blank">¡Compra Tu Entrada Ahora!</a>
+        </div>
+      </section>
+      <!-- PROMO -->
+      <section class="promo">
+        <!-- PROMO: CONTENT -->
+        <div class="promo__content">
+          <!-- PROMO: IFRAME -->
+          <div class="promo__iframe">
+            <iframe
+              class="iframe"
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/fpRSigxXnhU?si=6rtJ3basuQtMOeDX&hd=1"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+      </section>
+      <!-- ABOUT -->
+      <section class="about" id="about">
+        <!-- ABOUT: HEADINGS -->
+        <div class="headings">
+          <h2 class="headings--title">
+            ¿Qué es <span>Barrabase<span>?</span></span>
+          </h2>
+          <h4 class="headings--subtitle">
+            Es el festival de artes verbales que une al <span>rap con las batallas escritas y el freestyle</span>
+          </h4>
+        </div>
+        <!-- ABOUT: CONTENT -->
+        <div class="about__content">
+          <!-- ABOUT: REVIEW -->
+          <div class="review">
+            <p>
+              Exponentes nacionales del más alto nivel se reunirán para dar vida a un espectáculo único cargado de
+              rimas, creatividad e ingenio.
+              <span>
+                Barrabase abrirá sus puertas este 21 de Enero en el Teatro La Cúpula del Parque O'Higgins, siendo parte
+                del Festival Santiago Off 2024.</span
+              >
+            </p>
+            <img src="./assets/img/barrabase.webp" alt="Barrabase" />
+          </div>
+          <!-- ABOUT: ARTISTS -->
+          <div class="artists">
+            <!-- ABOUT: HOST -->
+            <div class="host">
+              <div class="headings">
+                <h4 class="headings--pretitle">Host</h4>
+              </div>
+              <div class="host__content">
+                <figure class="battle__card">
+                  <img
+                    class="battle__card--image"
+                    src="./assets/img/pepe-flama.webp"
+                    draggable="false"
+                    alt="Pepe Flama"
+                  />
+                  <figcaption class="battle__card--text">Pepe&nbsp;Flama</figcaption>
+                </figure>
+              </div>
+            </div>
+            <!-- ABOUT: WRITTEN -->
+            <div class="written">
+              <div class="headings">
+                <h4 class="headings--pretitle">Batallas Escritas</h4>
+              </div>
+              <div class="written__content">
+                <div class="written--top">
+                  <div class="battle">
+                    <figure class="battle__card">
+                      <img
+                        class="battle__card--image"
+                        src="./assets/img/el-menor.webp"
+                        draggable="false"
+                        alt="El Menor"
+                      />
+                      <figcaption class="battle__card--text">El&nbsp;Menor</figcaption>
+                    </figure>
+                    <p>VS</p>
+                    <figure class="battle__card">
+                      <img
+                        class="battle__card--image"
+                        src="./assets/img/cevlade.webp"
+                        draggable="false"
+                        alt="Cevladé"
+                      />
+                      <figcaption class="battle__card--text">Cevladé</figcaption>
+                    </figure>
+                  </div>
+                  <div class="battle">
+                    <figure class="battle__card">
+                      <img class="battle__card--image" src="./assets/img/jokker.webp" draggable="false" alt="Jokker" />
+                      <figcaption class="battle__card--text">Jokker</figcaption>
+                    </figure>
+                    <p>VS</p>
+                    <figure class="battle__card">
+                      <img class="battle__card--image" src="./assets/img/joqerr.webp" draggable="false" alt="Joqerr" />
+                      <figcaption class="battle__card--text">Joqerr</figcaption>
+                    </figure>
+                  </div>
+                </div>
+                <div class="written--bottom">
+                  <div class="battle">
+                    <figure class="battle__card">
+                      <img class="battle__card--image" src="./assets/img/basek.webp" draggable="false" alt="Basek" />
+                      <figcaption class="battle__card--text">Basek</figcaption>
+                    </figure>
+                    <p>VS</p>
+                    <figure class="battle__card">
+                      <img class="battle__card--image" src="./assets/img/mcma.webp" draggable="false" alt="MCMA" />
+                      <figcaption class="battle__card--text">MCMA</figcaption>
+                    </figure>
+                  </div>
+                  <div class="battle">
+                    <figure class="battle__card">
+                      <img class="battle__card--image" src="./assets/img/blazzt.webp" draggable="false" alt="Blazzt" />
+                      <figcaption class="battle__card--text">Blazzt</figcaption>
+                    </figure>
+                    <p>VS</p>
+                    <figure class="battle__card">
+                      <img
+                        class="battle__card--image"
+                        src="./assets/img/inefable.webp"
+                        draggable="false"
+                        alt="Inefable"
+                      />
+                      <figcaption class="battle__card--text">Inefable</figcaption>
+                    </figure>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- ABOUT: TURNTABLES N RAP -->
+            <div class="turntables-n-rap">
+              <div class="headings">
+                <h4 class="headings--pretitle">Show de Rap y Tornamesas</h4>
+              </div>
+              <div class="turntables-n-rap__content">
+                <figure class="battle__card">
+                  <img class="battle__card--image" src="./assets/img/zita-zoe.webp" draggable="false" alt="Zita Zoe" />
+                  <figcaption class="battle__card--text">Zita&nbsp;Zoe</figcaption>
+                </figure>
+                <figure class="battle__card">
+                  <img class="battle__card--image" src="./assets/img/dj-efe.webp" draggable="false" alt="Dj Efe" />
+                  <figcaption class="battle__card--text">Dj&nbsp;Efe</figcaption>
+                </figure>
+              </div>
+            </div>
+            <!-- ABOUT: FREESTYLE -->
+            <div class="freestyle">
+              <div class="headings">
+                <h4 class="headings--pretitle">Torneo Nacional de Freestyle</h4>
+              </div>
+              <div class="freestyle__content">
+                <div class="freestyle--top">
+                  <div class="battle">
+                    <figure class="battle__card">
+                      <img class="battle__card--image" src="./assets/img/nano.webp" draggable="false" alt="Nano" />
+                      <figcaption class="battle__card--text">Nano</figcaption>
+                    </figure>
+                    <figure class="battle__card">
+                      <img
+                        class="battle__card--image"
+                        src="./assets/img/sawi-elekipo.webp"
+                        draggable="false"
+                        alt="Elekipo"
+                      />
+                      <figcaption class="battle__card--text">Elekipo</figcaption>
+                    </figure>
+                  </div>
+                  <div class="battle">
+                    <figure class="battle__card">
+                      <img
+                        class="battle__card--image"
+                        src="./assets/img/elemece.webp"
+                        draggable="false"
+                        alt="Elemece"
+                      />
+                      <figcaption class="battle__card--text">Elemece</figcaption>
+                    </figure>
+                    <figure class="battle__card">
+                      <img class="battle__card--image" src="./assets/img/lucob.webp" draggable="false" alt="Lucob" />
+                      <figcaption class="battle__card--text">Lucob</figcaption>
+                    </figure>
+                  </div>
+                </div>
+                <div class="freestyle--bottom">
+                  <div class="battle">
+                    <figure class="battle__card">
+                      <img
+                        class="battle__card--image"
+                        src="./assets/img/marcelo.webp"
+                        draggable="false"
+                        alt="Marcelo"
+                      />
+                      <figcaption class="battle__card--text">Marcelo</figcaption>
+                    </figure>
+                    <figure class="battle__card">
+                      <img
+                        class="battle__card--image"
+                        src="./assets/img/flandes.webp"
+                        draggable="false"
+                        alt="Flandes"
+                      />
+                      <figcaption class="battle__card--text">Flandes</figcaption>
+                    </figure>
+                  </div>
+                  <div class="battle">
+                    <figure class="battle__card">
+                      <img class="battle__card--image" src="./assets/img/mb5.webp" draggable="false" alt="MB5" />
+                      <figcaption class="battle__card--text">MB5</figcaption>
+                    </figure>
+                    <figure class="battle__card">
+                      <img
+                        class="battle__card--image"
+                        src="./assets/img/sabandijah.webp"
+                        draggable="false"
+                        alt="Sabandijah"
+                      />
+                      <figcaption class="battle__card--text">Sabandijah</figcaption>
+                    </figure>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- ABOUT: HEADINGS -->
+        <div class="headings">
+          <h4 class="headings--subtitle">
+            Obtén una de las primeras 500 entradas<span>con precio especial de lanzamiento</span>
+          </h4>
+        </div>
+        <!-- ABOUT: CTA -->
+        <a class="cta" href="https://ticketplus.cl/events/barrabase" target="_blank">¡Compra Tu Entrada Ahora!</a>
+      </section>
+      <!-- FAQS -->
+      <section class="faqs" id="faqs">
+        <!-- FAQS: HEADINGS -->
+        <div class="headings">
+          <h2 class="headings--title">Preguntas <span>Frecuentes</span></h2>
+        </div>
+        <div class="faq">
+          <div class="faq__question">
+            <p>¿Qué es el Festival de Artes Verbales?</p>
+            <span class="material-symbols-outlined">expand_more</span>
+          </div>
+          <div class="faq__answer">
+            <p>
+              Es un evento único que fusiona el rap con las batallas escritas y el freestyle. Este festival se compone
+              de 3 ejes centrales:
+              <span class="faq__answer--span"
+                >I. Liga Barrabase de Batallas Escritas: 4 batallas escritas de rap.<span
+                  >II. Show de Rap y Tornamesas.</span
+                >
+                <span
+                  >III. Barrabase Freestyle: torneo nacional de batallas de freestyle de 8 participantes con 1
+                  campeón.</span
+                >
+              </span>
+            </p>
+          </div>
+        </div>
+        <div class="faq">
+          <div class="faq__question">
+            <p>¿Cuándo se llevará a cabo?</p>
+            <span class="material-symbols-outlined">expand_more</span>
+          </div>
+          <div class="faq__answer">
+            <p>
+              La primera edición del Festival de Artes Verbales Barrabase se llevará a cabo el día 21 de Enero desde las
+              16:00 hasta las 23:00, dentro del marco del Festival Internacional Santiago Off 2024.
+            </p>
+          </div>
+        </div>
+        <div class="faq">
+          <div class="faq__question">
+            <p>¿Dónde se realizará?</p>
+            <span class="material-symbols-outlined">expand_more</span>
+          </div>
+          <div class="faq__answer">
+            <p>El evento se realizará en el Teatro La Cúpula del Parque O'Higgins, ubicado en Santiago de Chile.</p>
+          </div>
+        </div>
+        <div class="faq">
+          <div class="faq__question">
+            <p>¿Cómo llegar?</p>
+            <span class="material-symbols-outlined">expand_more</span>
+          </div>
+          <div class="faq__answer">
+            <p>
+              Puedes llegar a través del metro, Líneas 1 y 2. Si tu llegada al parque será en auto, hay un servicio de
+              estacionamientos en el Club Hípico, el que estará ubicado a dos cuadras del acceso por Av. Tupper.
+            </p>
+          </div>
+        </div>
+        <div class="faq">
+          <div class="faq__question">
+            <p>¿Cuánto cuestan las entradas?</p>
+            <span class="material-symbols-outlined">expand_more</span>
+          </div>
+          <div class="faq__answer">
+            <p>Preventa: $6.000 (primeras 500 entradas).</p>
+          </div>
+        </div>
+        <div class="faq">
+          <div class="faq__question">
+            <p>¿Qué artistas participarán?</p>
+            <span class="material-symbols-outlined">expand_more</span>
+          </div>
+          <div class="faq__answer">
+            <p>
+              El espectáculo estará a cargo de los siguientes artistas:
+              <span class="faq__answer--span"
+                >I. Liga Barrabase de Batallas Escritas: El Menor, Jokker, Cevladé, Joqerr, Basek, Blazzt, Mcma e
+                Inefable.
+                <span>II. Show de Rap y Tornamesas: Zita Zoe y Dj Efe. </span>
+                <span
+                  >III. Barrabase Freestyle: 8 freestylers previamente clasificados se enfrentarán entre sí para
+                  llevarse la copa Barrabase Freestyle. Las clasificatorias para el torneo nacional se realizaron en 8
+                  de las competencias más importantess de Chile. Estas competencias son: DEM, Liga Inmortal, DLA
+                  Battles, Titanes Liricistas, Shaman Kings Battles, Gladiadores del Puerto, Alfa Free Battles y La
+                  Kompe.</span
+                >
+              </span>
+            </p>
+          </div>
+        </div>
+        <div class="faq">
+          <div class="faq__question">
+            <p>Formato Batallas Escritas</p>
+            <span class="material-symbols-outlined">expand_more</span>
+          </div>
+          <div class="faq__answer">
+            <p>
+              Cada batalla escrita tendrá un formato de escritura libre y constará de 3 rounds de 5 minutos (2 rounds a
+              capella y 1 round con instrumental de rap).
+            </p>
+          </div>
+        </div>
+        <div class="faq">
+          <div class="faq__question">
+            <p>Formato Torneo Nacional de Freestyle</p>
+            <span class="material-symbols-outlined">expand_more</span>
+          </div>
+          <div class="faq__answer">
+            <p>
+              El formato del torneo nacional de freestyle será en duplas. Los equipos serán escogidos al azar el día del
+              evento. La dupla ganadora se enfrentará en la final en formato 1 contra 1, para escoger al campeón de la
+              Copa Barrabase Freestyle.
+            </p>
+          </div>
+        </div>
+        <div class="faq">
+          <div class="faq__question">
+            <p>Ficha artística</p>
+            <span class="material-symbols-outlined">expand_more</span>
+          </div>
+          <div class="faq__answer">
+            <p>
+              I. Dirección: Moisés Angulo.<span>II. Productora: Magdalena Aylwin.</span
+              ><span>III. Catering: Nicolás Leiva.</span><span>IV. Backstage: Jorge Abarzúa.</span
+              ><span>V. Escenario: Emerson Tapia.</span><span>VI. Face Off: Tomás Baeza.</span
+              ><span>VII. Entrevistas: Fredy Utreras e Ismael Ovando.</span
+              ><span>VIII. Iluminación: Julio Escobar.</span><span>IX. Sonido: Sergio González. </span
+              ><span>X. Visuales: Daniel Pastene.</span><span>XI. Dj: Dj Efe.</span><span>XII. Host: Pepe Flama.</span
+              ><span>XII. Jurados: Simón Leiva.</span><span>XIII. Asistencia: Hugo Rojas.</span
+              ><span>XIV. Registro Backstage: Ignacio Urrutia.</span
+              ><span>XV. Producción Audiovisual: Monkey Labs.</span><span>XVI. Fotógrafo: Marcos Ríos.</span
+              ><span>XVII. Cámara Entrevistas: Patricio Salazar.</span>
+              <span>XVIII. Auspicio: Vegas Apparels & Redbull.</span
+              ><span>XIX. Coproducción: Festival Internacional Santiago Off.</span>
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- FOOTER -->
+      <footer class="footer">
+        <h3>© 2023 <span>Barrabase</span></h3>
+        <h4>
+          Hecho con ❤️ por
+          <a href="https://jsovandoarriagada.github.io/portfolio.js/" target="_blank">José Simón Ovando A.</a>
+        </h4>
+      </footer>
+    </div>
+    <!-- SCRIPTS -->
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
