@@ -379,27 +379,6 @@ ul {
   gap: 4.8rem;
 }
 
-/* HERO: FEATURES */
-.features {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 1.6rem;
-  flex-wrap: wrap;
-}
-
-.feature {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 0.45rem;
-  color: var(--gray-light);
-}
-
-.feature span {
-  color: var(--yellow);
-}
-
 /* PROMO */
 .promo {
   width: 100vw;
