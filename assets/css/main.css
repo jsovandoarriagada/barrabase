@@ -379,7 +379,7 @@ ul {
   gap: 4.8rem;
 }
 
- /* PROMO */
+/* PROMO */
 .promo {
   width: 100vw;
   max-width: 100%;
@@ -545,15 +545,6 @@ ul {
   }
 }
 
-.battle__card figcaption.unknown {
-  font-family: "Poppins";
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, 10%);
-  line-height: 0.9;
-  text-align: center;
-}
-
 .written,
 .freestyle,
 .host,
@@ -575,6 +566,10 @@ ul {
 .freestyle__content {
   display: flex;
   flex-direction: column;
+  gap: 4.8rem;
+}
+
+.host__content .battle {
   gap: 4.8rem;
 }
 
